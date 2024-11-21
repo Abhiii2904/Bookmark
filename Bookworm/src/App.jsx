@@ -5,6 +5,7 @@ import Login from './Login.jsx'
 import Signup from './Signup.jsx'
 import About from './About.jsx'
 import Faq from './Faq.jsx'
+import Reader from './Reader.jsx'
 import './App.css'
 
 function App(){
@@ -17,6 +18,7 @@ function App(){
           <Route path="/Signup" element = {<Signup />}></Route>
           <Route path="/About" element = {<About />}></Route>
           <Route path="/Faq" element = {<Faq />}></Route>
+          <Route path="/Reader" element = {<Reader />}></Route>
         </Routes>
       </BrowserRouter>
     </div>

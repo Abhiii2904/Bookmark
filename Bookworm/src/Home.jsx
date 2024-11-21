@@ -21,7 +21,7 @@ function App(){
       </nav>
       <div className='hero'>
         <h1>ePub Reader.</h1>
-        <div className='container'>
+        <div className='container-hero'>
           <span className='typed'>        
               <h2 className='text1'>Free. Open Source. Browser based.</h2>
           </span>
