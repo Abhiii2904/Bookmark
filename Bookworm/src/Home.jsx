@@ -10,7 +10,9 @@ function App(){
       <nav className="navbar">
         <img src={logo} className="logo"/>
         <div className="nav-login">
-          <h3 className="login-text">About us</h3>
+          <Link to='/About'>
+            <h3 className="login-text">About us</h3>
+          </Link>
           <a href='https://github.com/Abhiii2904/Bookmark'><h3 className="login-text">Github</h3></a>
           <Link to='/Login'>
             <h3 className="login-text">Login</h3>
@@ -37,7 +39,7 @@ function App(){
             <p className='fl'>2. Reader progress</p>
             <p className='fl'>3. Global Search</p>
             <p className='fl'>4. Customize your books</p>
-            <p className='fl'>5. AI Summarizer</p>
+            <p className='fl'>5. Font style and weights</p>
             <p className='fl'>6. Text highlight options</p>
           </div>
         </div>
