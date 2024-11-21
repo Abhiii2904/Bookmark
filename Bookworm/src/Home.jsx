@@ -11,7 +11,7 @@ function App(){
         <img src={logo} className="logo"/>
         <div className="nav-login">
           <h3 className="login-text">About us</h3>
-          <h3 className="login-text">Github</h3>
+          <a href='https://github.com/Abhiii2904/Bookmark'><h3 className="login-text">Github</h3></a>
           <Link to='/Login'>
             <h3 className="login-text">Login</h3>
           </Link>

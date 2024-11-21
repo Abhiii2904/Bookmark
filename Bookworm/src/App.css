@@ -103,3 +103,8 @@ h1 {
   font-size: 1.2em;
   color: #A5A5A5;
 }
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
