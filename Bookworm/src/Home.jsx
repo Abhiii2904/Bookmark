@@ -45,6 +45,8 @@ function App(){
         </div>
       </div>
 
+      <Link to='/Faq'><h5 className='login-text'>Have any questions? Go to our FAQ's</h5></Link>
+
     </div>
 
   )

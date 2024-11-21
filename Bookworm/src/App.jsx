@@ -4,6 +4,7 @@ import Home from './Home.jsx'
 import Login from './Login.jsx'
 import Signup from './Signup.jsx'
 import About from './About.jsx'
+import Faq from './Faq.jsx'
 import './App.css'
 
 function App(){
@@ -15,6 +16,7 @@ function App(){
           <Route path="/Login" element = {<Login />}></Route>
           <Route path="/Signup" element = {<Signup />}></Route>
           <Route path="/About" element = {<About />}></Route>
+          <Route path="/Faq" element = {<Faq />}></Route>
         </Routes>
       </BrowserRouter>
     </div>
