@@ -1,0 +1,105 @@
+#root {
+  max-width: 100%;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+body {
+  place-items: center;
+  min-width: 320px;
+  min-height: 100vh;
+  margin: 0;
+}
+
+.logo{
+  width: 170px;
+}
+
+.navbar{
+  font-size: 22px;
+  font-weight: 200;
+  display: flex;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.nav-login{
+  display: flex;
+  padding-left: 750px;
+  align-items: center;
+}
+
+.login-text{
+  font-weight: 200;
+  font-size: 20px;
+  padding-left: 30px;
+}
+.hero{
+  padding-top: 125px;
+}
+
+.container{
+  border-right: 2px solid black; 
+  white-space: nowrap; 
+  overflow: hidden; 
+  width: 0; 
+  animation: typing 3s steps(30, end) forwards , blink-caret 0.75s step-end infinite;       
+}
+
+@keyframes typing {
+  from {
+      width: 0; 
+  }
+  to {
+      width: 100%; 
+  }
+}
+
+@keyframes blink-caret {
+  50% {
+      border-color: transparent;
+  }
+}
+
+.typed {
+  font-size: 2rem; 
+  color: #A5A5A5; 
+  display: inline-block; 
+}
+
+h1 {  
+  margin: 0 auto;
+  font-size: 4.2em;
+  color: white;
+  line-height: 1;
+}
+
+.feature-box {
+  margin-top: 125px;
+  display: flex;
+  background-color: #292929;
+  border-top-right-radius: 20px;
+  border-bottom-right-radius: 20px;
+}
+
+.img {
+  width: 750px;
+}
+
+.feature-list {
+  padding-left: 50px;
+  padding-top: 20px;
+}
+
+.fh {
+  font-size: 2em;
+  text-align: left;
+}
+
+.fl {
+  padding-top: 20px;
+  text-align: left;
+  font-size: 1.2em;
+  color: #A5A5A5;
+}
