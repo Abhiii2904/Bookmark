@@ -55,6 +55,7 @@ body {
 
 .dark-mode .viewer {
   background-color: rgb(16, 15, 15);
+  color: white;
 }
 
 .dark-mode .menu-sidebar {

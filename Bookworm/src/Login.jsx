@@ -33,14 +33,14 @@ function Signup() {
         <img src={logo} className='logoo' alt="Logo" />
         <form className='form-ele' onSubmit={handleSubmit}>
           <div>
-            <label className='label'>Email</label>
+            <label className='label-login'>Email</label>
             <br />
             <input
               type='email' className='textbox' onChange={(e)=>setEmail(e.target.value)}/>
           </div>
           <br />
           <div>
-            <label className='label'>Password</label>
+            <label className='label-login'>Password</label>
             <br />
             <input
               type='password' className='textbox' onChange={(e)=>setPassword(e.target.value)}/>
@@ -52,7 +52,7 @@ function Signup() {
         </form>
         <br />
         <div className='create-account'>
-          <Link to='/Signup'>
+          <Link to='/Signup' className='label-login'>
             <p>Don't have an account?</p>
           </Link>
         </div>

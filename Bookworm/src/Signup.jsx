@@ -26,20 +26,20 @@ function Signup() {
         <img src={logo} className='logoo' alt="Logo" />
         <form className='form-ele' method='POST' onSubmit={handleSubmit}>
           <div>
-            <label className='label'>Email</label>
+            <label className='label-login'>Email</label>
             <br />
             <input
               type='email' className='textbox' onChange={(e)=>setEmail(e.target.value)}/>
           </div>
           <div>
-            <label className='label'>Username</label>
+            <label className='label-login'>Username</label>
             <br />
             <input
               type='text' className='textbox' onChange={(e)=>setName(e.target.value)}/>
           </div>
           <br />
           <div>
-            <label className='label'>Password</label>
+            <label className='label-login'>Password</label>
             <br />
             <input
               type='password' className='textbox' onChange={(e)=>setPassword(e.target.value)}/>
@@ -50,7 +50,7 @@ function Signup() {
         <br />
         <div className='create-account'>
           <Link to='/Login'>
-            <p>Have an account?</p>
+            <p className='label-login'>Have an account?</p>
           </Link>
         </div>
       </div>
